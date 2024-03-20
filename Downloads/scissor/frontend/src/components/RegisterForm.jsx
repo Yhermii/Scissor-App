@@ -27,7 +27,7 @@ export const RegisterForm = () => {
                 throw new Error("Passwords must match!");
             }
     
-            const response = await axios.post("https://sciss-y17c.onrender.com/register", formData, {
+            const response = await axios.post("https://https://scissor-326r.onrender.com/register", formData, {
                 headers: { "Content-Type": "application/json" }
             });
     

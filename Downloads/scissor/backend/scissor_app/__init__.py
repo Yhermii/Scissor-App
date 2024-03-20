@@ -11,7 +11,7 @@ app = FastAPI(title="Scissor", description="URL link shortener at it's best. Bri
 origins = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    "https://sciss-nine.vercel.app",
+    "https://scissor-theta.vercel.app",
 ]
 
 app.add_middleware(

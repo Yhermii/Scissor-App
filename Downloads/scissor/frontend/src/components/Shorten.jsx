@@ -28,7 +28,7 @@ export const Shorten = () => {
             setLoading(true);
 
             const response = await axios.post(
-                "https://sciss-y17c.onrender.com/shorten-url",
+                "https://https://scissor-326r.onrender.com/shorten-url",
                 {
                     original_url: url,
                     user_id: user.user_id
@@ -151,7 +151,7 @@ export const Shorten = () => {
                                         >
                                             Shortened URL: &emsp;
                                             <span>
-                                                <Link to={`https://sciss-y17c.onrender.com/${shortenedUrl}`} target="_blank">
+                                                <Link to={`https://https://scissor-326r.onrender.com/${shortenedUrl}`} target="_blank">
                                                     <Typography variant="h6" sx={{ fontWeight: 'light', color: "#ffffff" }} paragraph className="inline text-white"> 
                                                         {shortenedUrl} 
                                                     </Typography>

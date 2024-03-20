@@ -23,7 +23,7 @@ export const Stats = () => {
     const handleTracker = async () => {
         try {
             setLoading(true);
-            const response = await axios.get(`https://sciss-y17c.onrender.com/analytics/${shortUrl}`, {
+            const response = await axios.get(`https://https://scissor-326r.onrender.com/analytics/${shortUrl}`, {
                 headers: {
                     "Authorization": `Bearer ${localStorage.getItem("token")}`
                 }
@@ -121,7 +121,7 @@ export const Stats = () => {
                                                     </span><br /> <br />
                                                     Shortened URL: &emsp;
                                                     <span>
-                                                    <Link to={`https://sciss-y17c.onrender.com/${analytics.short_url}`} target="_blank">
+                                                    <Link to={`https://https://scissor-326r.onrender.com/${analytics.short_url}`} target="_blank">
                                                         <Typography variant="h6" sx={{ fontWeight: 'light'}} paragraph className="inline text-white">
                                                             {analytics.short_url}
                                                         </Typography>

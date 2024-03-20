@@ -25,7 +25,7 @@ export const GetQr = () => {
     const handleQr = async () => {
         try {
             setLoading(true);
-            const response = await axios.get(`https://sciss-y17c.onrender.com/get-qr/${shortUrl}`, {
+            const response = await axios.get(`https://https://scissor-326r.onrender.com/get-qr/${shortUrl}`, {
                 headers: {
                     "Authorization": `Bearer ${localStorage.getItem("token")}`
                 },

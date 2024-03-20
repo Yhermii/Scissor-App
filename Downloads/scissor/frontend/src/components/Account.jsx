@@ -16,7 +16,7 @@ export const Account = () => {
         
         const fetchLinkHistory = async () => {
             try {
-                const response = await axios.get(`https://sciss-y17c.onrender.com/link-history/${user.user_id}`);
+                const response = await axios.get(`https://https://scissor-326r.onrender.com/link-history/${user.user_id}`);
                 setLinkHistory(response.data);
             } catch (error) {
                 console.error("Error fetching link history:", error);
@@ -71,7 +71,7 @@ export const Account = () => {
                                                             {link.original_url}
                                                         </td>
                                                         <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 ">
-                                                            <Link to={`https://sciss-y17c.onrender.com/${link.shortened_url}`} target="_blank">
+                                                            <Link to={`https://https://scissor-326r.onrender.com/${link.shortened_url}`} target="_blank">
                                                             {link.shortened_url}
                                                             </Link>
                                                         </td>
